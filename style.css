@@ -1,0 +1,183 @@
+header,footer {
+    padding:10px;
+    color: black;
+    background-color: red;
+    text-align: center;
+}
+body {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid slategray;
+    flex-direction: column;
+    height: fit-content;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    background-color: beige;
+    padding: 1em;
+
+    
+}
+
+.wrapper {
+    display: flex;
+}
+.wrapper > div {
+    flex: 1;
+    text-align: center;
+}
+
+.containen {
+    width: 100%;
+    height: fit-content;
+
+}
+
+article {
+    float: left;
+    width: 65%;
+    padding: 1em;
+    height: 230px;
+    color: black;
+    background-color: dimgray;
+
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding: 1em;
+    border-left: 1px solid slategrey;
+    color: black;
+    height: 542px;
+    background-color: olive;
+
+
+}
+
+section {
+    float: left;
+    width: 65%;
+    color: black;
+    height: 230px;
+    padding: 1em;
+    background-color: palevioletred;
+
+}
+
+.h1s {
+    font-size: 20px;
+    color: violet;
+    
+    }
+    
+    .ppteksti {
+        font-size: 12px;
+        color: green;
+    }
+
+    label {
+        color: violet;
+    }
+    
+    
+    .border {
+    
+        
+        border: 2px dotted;
+        height: 100px;
+        width: 100px;
+        
+        
+    }
+    .teksti {
+        border: 3px dashed violet;
+        height: fit-content;
+        width: fit-content;
+        background: red;
+    }
+    
+    .bordered {
+    border: 1px solid black; 
+    height: 100px;
+    width: 400px;
+    background: greenyellow;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    h3 {
+    color: white;
+    }
+    
+    .reuna {
+        background: black;
+        border: dotted 3px fuchsia;
+        height: 100px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .kehys {
+        border: 3px solid black;
+    }
+    
+    figcaption {
+        border: 3px solid white;
+        color: white;
+        height: 30px;
+        width: 150px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-nav {
+        background-color:grey;
+        border-top: 1px solid black;
+        flex: 1;
+        padding: 20px;
+        height: auto
+     
+      }
+      
+      .second-nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        
+      }
+      
+      .second-nav p {
+        color: black
+    
+      }
+
+      .second-section {
+            display: flex;
+            background-color: black;
+            padding: 50px;
+          }
+    
+          .second-article {
+            background: steelblue;
+            color: black;
+            padding: 45px;
+
+          }
+.h2p {
+    color: white;
+    text-align: center;
+}
+    .h122 {
+        text-align: center;
+    }
